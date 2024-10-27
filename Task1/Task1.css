@@ -1,0 +1,87 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    padding: 18px 0px;
+    display: flex;
+    width: 40%;
+    background-color: bisque;
+    justify-content: center;
+    align-content: center;
+    border: none;
+    border-radius: 10px;
+}
+.row{
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.card-label{
+    width: 50%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.card-field{
+    width : 250px;
+    height: 24px;
+    border: 2px solid rgb(248, 251, 248); /* Add a border style */
+    border-radius: 6px;
+    outline: none; 
+    font-size: 18px;
+}
+
+.card-field:focus {
+    border-color: rgb(249, 217, 70);  
+}
+
+.result{
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: bisque;
+    justify-content: center;
+    align-content: center;
+    border: none;
+    border-radius: 10px;
+    height: 560px;
+
+}
+.result-row{
+    height: auto;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.result-label{
+    width: 50%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.result-field{
+    width : 250px;
+    height: 18px;
+    border: 2px solid rgb(248, 251, 248); /* Add a border style */
+    border-radius: 6px;
+    outline: none; 
+    font-size: 18px;
+}
+.button-row {
+    position: relative;
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    /* margin-top: 20px; */
+}
+
+.button-row:hover{
+    cursor: pointer;
+}
